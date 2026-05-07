@@ -11,3 +11,35 @@ venv/
 *.csv
 *.npy
 *.npz
+
+# Data and experiment outputs
+data/
+datasets/
+artifacts*/
+outputs/
+results/
+runs/
+wandb/
+clwl_mnist_results/
+mnist_viz_results/
+mnist10_misspecified_failure_results/
+
+# Archives and large files
+*.zip
+*.tar
+*.tar.gz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.npy
+*.npz
+*.h5
+
+# Python/cache/logs
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.log
+.DS_Store
+.vscode/
